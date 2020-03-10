@@ -148,12 +148,23 @@ button.button-google:hover {
     background-color: #C23321;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .item-left {
         display: none;
     }
 
     .item-right {
         flex: 1 1 0%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .item-right {
+      padding: 50px 30px 0;
+    }
+
+    .logo {
+        margin-bottom: 20px;
     }
 }
